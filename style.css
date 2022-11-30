@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    20% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+h1{
+   font-family:  sans-serif;
+   font-weight: 900;
+   font-size:5em;
+}
+h2{
+     font-family:  sans-serif;
+     font-weight: 700;
+     color:  #000000;
+}
+
+nav{
+
+background: #000000;
+border-bottom: 2px solid;
+
+}
+a:hover, a:active {
+    font-size: 120%;
+   
+}
+.loading-page{
+    background: #000000;  
+}
+
+.arrow-container{
+    display:flex;
+    justify-content:center;
+    width:auto;
+}
+
+service{
+    display: inline-block;
+}
+.wrapper {
+    display:flex;
+    gap: 2rem;
+    margin: top 6em;
+    width: auto;
+    overflow-x: 1500;
+}
+.service-card{
+    display:block;
+    border: 2px solid #000000;
+    margin-bottom: 3em;
+    margin-top: 3em;
+   
+}
+.wrapper p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 1em;
+margin: 2rem;
+}
+.container h2{
+    font-weight: 700;
+    font-size:5em;
+    color:  #000000;
+}
+.service-card h3{
+    margin:1rem 2rem;
+    
+}
+.service-card:hover{
+    animation: fadeInAnimation ease 0.5s;
+  background: #000000;
+  color:white;
+}
+
+footer{
+	background: #101010;
+	padding: 86px 0;
+}
+footer h2{
+    color: white;
+    font-weight: 700;
+    font-size:5em;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline-style: solid;
+    border: 2px solid white;
+    border-radius: 0%;
+   
+  }
+
